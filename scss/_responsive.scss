@@ -1,0 +1,127 @@
+@media (min-width: 390px) and (max-width:844px) {
+
+main{
+    width: 390px;
+    background-image: url('https://bizznes.top/wp-content/uploads/2021/03/bizznes.top-mebli-06.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+main h1{
+    width: 296px;
+    height: 68px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+main p{
+    width: 200px;
+    height: 115px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+main button{
+    width: 200px;
+    height: 60px;
+}
+
+nav ul{
+    display: none;
+    width: 100%;
+}    
+
+nav .nav__icon{
+    width: 100 px;
+    height: 43.44px;
+}
+
+nav .insta{
+   display: none;
+}
+
+nav .phone{
+    display: none;
+}
+
+nav .feather{
+    width: 34px;
+    height: 34px;
+}
+
+.osnovni .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section h2{
+    width: 238px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section{
+    margin-bottom: 1000px;
+}
+
+.section .cards{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    flex-direction: row;
+    margin-bottom: 1000px;
+}
+
+.section .cards .meblyami{
+    display: flex;
+    flex-direction: column;
+}
+
+.section .cards .dverima{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section .card{
+    width: 81px;
+    height: 88px;
+    color: black;
+}
+
+.zabespechemo{
+    height: 1400px;
+}
+
+.proekt{
+    height:  1000px;
+}
+
+.proekt h2{
+    width: 299px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.proekt img{
+    display: none;
+    margin-bottom: 1000px;
+}
+
+.proekt .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
+
+@media (min-width: 1080px) and (max-width:1920px) {
+    nav .feather{
+        display: none;
+    }
+}
